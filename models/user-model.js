@@ -12,11 +12,7 @@ const mongoose=require('mongoose');
       type:Array,
       default:[],
     },
-    isadmin:Boolean,
-    orders:{
-      type:Array,
-      default:[],
-    },
+    
     contact:Number,
     picture:String,
 
